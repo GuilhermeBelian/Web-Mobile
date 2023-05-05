@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color:rgba(0, 0, 0, 0.8);
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 166, 0);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #dog-image {
+    max-width: 100%;
+    border: 3px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 166, 0);;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
